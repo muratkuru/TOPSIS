@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOPSIS.Process", "TOPSIS.Process\TOPSIS.Process.csproj", "{EC646021-AC01-4D70-81D2-08B835AD88E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOPSIS.Test", "TOPSIS.Test\TOPSIS.Test.csproj", "{853733CC-55C9-4608-ABCB-0C76AA5E4E90}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC646021-AC01-4D70-81D2-08B835AD88E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC646021-AC01-4D70-81D2-08B835AD88E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC646021-AC01-4D70-81D2-08B835AD88E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC646021-AC01-4D70-81D2-08B835AD88E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{853733CC-55C9-4608-ABCB-0C76AA5E4E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{853733CC-55C9-4608-ABCB-0C76AA5E4E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{853733CC-55C9-4608-ABCB-0C76AA5E4E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{853733CC-55C9-4608-ABCB-0C76AA5E4E90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
